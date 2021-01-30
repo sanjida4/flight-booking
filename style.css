@@ -53,6 +53,7 @@ nav ul li a:hover, a.active{
     padding: 25px;
     border-radius: 5px;
     float: left;
+    margin-top: 60px;
 }
 .booking-form h3{
     margin: 10px 0px;
@@ -62,18 +63,17 @@ nav ul li a:hover, a.active{
 }
 .f-class{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 .inp-width{
     min-width: 300px;
 }
-.plus-minus-btn{
+.btn-default{
+    border-color: white;
     color: #3352F2;
-    font-size: 30px;
     padding: 2px;
     margin-top: 10px;
-    word-spacing: 20px;
 }
 .booking-form  .calculations{
     margin: 10px 0;
@@ -98,10 +98,11 @@ nav ul li a:hover, a.active{
     gap: 10px;
 }
 .booking-content{
-    color: #fff;
     width: 80%;
+    color: #ECFAFA;
 }
 .booking-content h1{
+    color: #B5FEFA;
     font-size: 70px;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;

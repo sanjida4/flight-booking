@@ -124,3 +124,12 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+h5{
+    display: none;
+    color:  #DEE33B;
+    margin: 250px 800px;
+    font-size: 30px;
+}
+i{
+    margin-left: 50px;
+}
